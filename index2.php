@@ -18,13 +18,11 @@ else
         echo "<br>";
         echo "Terkoneksi ke SQL";
         echo "<br>";
-	$total = mysqli_num_rows();
+	$count = $result->num_rows;
 	echo "Total user: ".$count." Orang";
 }
 
 mysqli_close($link);
 
 ?>
-
-
 
